@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStore.WEB", "GameStore.WEB\GameStore.WEB.csproj", "{29DFD8D3-E99A-40FA-8E48-454C4D4FD6C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStore.Domain", "GameStore.Domain\GameStore.Domain.csproj", "{03355796-32D5-4772-870D-8EFAF3DFFADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStore.UnitTest", "GameStore.UnitTest\GameStore.UnitTest.csproj", "{16B1D7A8-D814-4C6C-A982-5AA9AF1D3BE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29DFD8D3-E99A-40FA-8E48-454C4D4FD6C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29DFD8D3-E99A-40FA-8E48-454C4D4FD6C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29DFD8D3-E99A-40FA-8E48-454C4D4FD6C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29DFD8D3-E99A-40FA-8E48-454C4D4FD6C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03355796-32D5-4772-870D-8EFAF3DFFADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03355796-32D5-4772-870D-8EFAF3DFFADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03355796-32D5-4772-870D-8EFAF3DFFADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03355796-32D5-4772-870D-8EFAF3DFFADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B1D7A8-D814-4C6C-A982-5AA9AF1D3BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B1D7A8-D814-4C6C-A982-5AA9AF1D3BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B1D7A8-D814-4C6C-A982-5AA9AF1D3BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B1D7A8-D814-4C6C-A982-5AA9AF1D3BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

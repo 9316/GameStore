@@ -1,0 +1,25 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/content/css")
+    @Styles.Render("~/content/ErrorStyles")
+    @Scripts.Render("~/bundles/jquery_Validation")
+    <title></title>
+</head>
+<body>
+    <div>
+
+        @if (TempData["message"] != null)
+        {
+            <div class="alert alert-success">@TempData["message"]</div>
+        }
+        @RenderBody()
+    </div>
+</body>
+</html>
